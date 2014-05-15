@@ -9,21 +9,16 @@
 (setq live-disable-zone t)      ;; disable the silly putz with case thing
 
 ;; My custom stuff
-;; (add-to-list 'load-path "/usr/share/emacs/site-lisp/haskell-mode")
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/erlang")
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/ocaml-mode")
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/csharp-mode")
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/fsharp-mode")
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/git-commit-mode")
-;; (require 'inf-haskell)
-(require 'haskell-session)
-(require 'haskell-indentation)
 (require 'inf-caml)
 (require 'erlang)
 (require 'csharp-mode)
 (require 'inf-fsharp-mode)
 (require 'git-commit)
-;; (add-to-list 'auto-mode-alist '("\\.hs$" . haskell-mode))
 (add-to-list 'auto-mode-alist '("\\.ml$" . caml-mode))
 (add-to-list 'auto-mode-alist '("\\.erl$" . erlang-mode))
 (add-to-list 'auto-mode-alist '("\\.fs[iylx]?$" . fsharp-mode))
